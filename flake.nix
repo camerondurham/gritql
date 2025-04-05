@@ -41,7 +41,7 @@
 
           src = pkgs.fetchurl {
             url = "https://github.com/getgrit/gritql/releases/latest/download/${filename}.tar.gz";
-            sha256 = "FtCyQ9+hTPa9+TjMSmo17+5uasZcjGUUu1t4AZD40x8=";
+            sha256 = "erjH7qkHma41yG8qm35I5WuRpi5qRZuRDd4aPaoGa/M=";
           };
 
           nativeBuildInputs = [ pkgs.makeWrapper ];
